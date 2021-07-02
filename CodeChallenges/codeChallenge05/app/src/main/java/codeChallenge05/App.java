@@ -24,7 +24,6 @@ public class App {
 //        System.out.println(list.indexOf(40));
         System.out.println(list.toString());
 
-
     }
 
 
