@@ -1,6 +1,6 @@
 # Code Challenge - 01
 ***
-![img](../whiteBoards\codeChallenge01.png)
+![img](../whiteBoards/codeChallenge01.png)
 
 ***
 # Code Snippet
