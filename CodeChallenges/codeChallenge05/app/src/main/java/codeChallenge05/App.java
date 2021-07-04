@@ -22,9 +22,11 @@ public class App {
         // find idx of item
         System.out.println(list.includes(100));
 //        System.out.println(list.indexOf(40));
+        list.insertBefore(10,5);
+        System.out.println(list.toString());
+        list.insertAfter(60,14);
         System.out.println(list.toString());
 
     }
-
 
 }

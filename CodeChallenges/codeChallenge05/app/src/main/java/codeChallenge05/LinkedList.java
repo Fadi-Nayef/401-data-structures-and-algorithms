@@ -27,8 +27,8 @@ public class LinkedList {
     private Node last ;
 
 
-    public void addToLast( int data) {
-        var node = new Node(data);
+    public void addToLast( int value) {
+        var node = new Node(value);
 
         if(first==null)
             first=last=node;
@@ -37,6 +37,41 @@ public class LinkedList {
             last = node;
         }
     }
+    public void insertBefore(int value , int newValue ){
+        var current = first;
+        var node = new Node(newValue);
+
+        while( current.next != null )
+        {
+            if( current.next.value == value )
+            {
+                node.next = current.next;
+                current.next = node;
+                return;
+            }
+
+            current = current.next;
+        }
+
+    }
+    public void insertAfter(int value , int newValue ){
+        var current = first;
+        var node = new Node(newValue);
+
+        while( current.next != null )
+        {
+            if( current.value == value )
+            {
+                node.next = current.next;
+                current.next = node;
+                return;
+            }
+
+            current = current.next;
+        }
+
+    }
+
 
     public void addToFirst (int data){
         var node = new Node(data);
