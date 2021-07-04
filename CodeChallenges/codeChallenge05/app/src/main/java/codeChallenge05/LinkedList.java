@@ -26,8 +26,11 @@ public class LinkedList {
     private Node first ;
     private Node last ;
 
+    public Node getFirst() {
+        return first;
+    }
 
-    public void addToLast( int value) {
+    public void addToLast(int value) {
         var node = new Node(value);
 
         if(first==null)
