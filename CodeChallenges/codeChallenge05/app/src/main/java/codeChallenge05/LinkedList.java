@@ -22,6 +22,32 @@ public class LinkedList {
             this.value = value;
         }
     }
+    private Node first ;
+    private Node last ;
+
+
+    public LinkedList zipLists(LinkedList b){
+        int length = 0 ;
+        Node current = first;
+        if(this.isEmpty())return b;
+        if(b.isEmpty()) return this;
+        zipLists(this.first,b.first);
+        return this;
+    }
+    private void zipLists(Node a, Node b){
+        int length=0;
+        Node current = a.next;
+
+        Node firstList = a.next;
+        Node secondList = b.next;
+        if(firstList == null) return;
+        if(secondList == null) return;
+
+          a.next = b;
+          b.next = firstList;
+        zipLists(firstList,secondList);
+    }
+
     public void kthEnd(int k) {
         var node = new Node(k);
         int length = 0;
@@ -51,8 +77,7 @@ public class LinkedList {
         }
     }
 
-    private Node first ;
-    private Node last ;
+
 
     public Node getFirst() {
         return first;

@@ -3,6 +3,7 @@
  */
 package codeChallenge05;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -100,4 +101,26 @@ class AppTest {
 
     }
 
+    @Test
+    public void zipTwoListTest(){
+        var list = new LinkedList();
+        var list2 = new LinkedList();
+        list2.addToFirst(22);
+        list2.addToFirst(22);
+        list2.addToFirst(22);
+        list2.addToFirst(22);
+        list2.addToFirst(23);
+
+
+        //add item to the list
+        list.addToLast(10);
+        list.addToLast(20);
+        list.addToLast(30);
+        // add item to the head
+        list.addToFirst(40);
+        list.addToFirst(50);
+        list.addToFirst(60);
+
+        Assertions.assertEquals("List: { 60 } -> { 23 } -> { 50 } -> { 22 } -> { 40 } -> { 22 } -> { 10 } -> { 22 } -> { 20 } -> { 30 } -> NULL",list.zipLists(list2).toString());
+    }
 }

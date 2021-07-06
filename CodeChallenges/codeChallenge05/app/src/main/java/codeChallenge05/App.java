@@ -10,6 +10,15 @@ public class App {
 
     public static void main(String[] args) {
             var   list = new LinkedList ();
+            var list2= new LinkedList();
+
+
+            list2.addToFirst(22);
+            list2.addToFirst(22);
+            list2.addToFirst(22);
+            list2.addToFirst(22);
+            list2.addToFirst(23);
+
 
       //add item to the list
         list.addToLast(10);
@@ -21,15 +30,21 @@ public class App {
         list.addToFirst(60);
 
         // find idx of item
-        System.out.println(list.includes(100));
-//        System.out.println(list.indexOf(40));
-        list.insertBefore(10,5);
+//        System.out.println(list.includes(100));
+////        System.out.println(list.indexOf(40));
+//        list.insertBefore(10,5);
+//        System.out.println(list.toString());
+//        list.insertAfter(60,14);
+//        System.out.println(list.toString());
+//        list.kthEnd(2);
+//        list.kthEnd(20);
+//        list.kthEnd(-6);
+
+        System.out.println("testing zip lists");
         System.out.println(list.toString());
-        list.insertAfter(60,14);
-        System.out.println(list.toString());
-        list.kthEnd(2);
-        list.kthEnd(20);
-        list.kthEnd(-6);
+        System.out.println(list2.toString());
+        System.out.println(list.zipLists(list2));
+
     }
 
 }
