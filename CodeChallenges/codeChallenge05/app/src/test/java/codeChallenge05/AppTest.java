@@ -90,4 +90,14 @@ class AppTest {
         assertEquals("List: { 60 } -> { 50 } -> { 40 } -> { 10 } -> { 5 } -> { 20 } -> { 30 } -> NULL",list.toString());
 
     }
+    @Test
+    public void kthEndTest(){
+        var list = new LinkedList();
+        list.kthEnd(6);
+        list.kthEnd(20);
+        list.kthEnd(-6);
+
+
+    }
+
 }

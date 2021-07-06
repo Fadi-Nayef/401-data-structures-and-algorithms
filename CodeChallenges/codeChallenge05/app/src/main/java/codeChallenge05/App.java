@@ -19,6 +19,7 @@ public class App {
         list.addToFirst(40);
         list.addToFirst(50);
         list.addToFirst(60);
+
         // find idx of item
         System.out.println(list.includes(100));
 //        System.out.println(list.indexOf(40));
@@ -26,7 +27,9 @@ public class App {
         System.out.println(list.toString());
         list.insertAfter(60,14);
         System.out.println(list.toString());
-
+        list.kthEnd(2);
+        list.kthEnd(20);
+        list.kthEnd(-6);
     }
 
 }

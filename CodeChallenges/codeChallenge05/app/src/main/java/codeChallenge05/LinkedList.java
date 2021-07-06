@@ -22,6 +22,34 @@ public class LinkedList {
             this.value = value;
         }
     }
+    public void kthEnd(int k) {
+        var node = new Node(k);
+        int length = 0;
+        Node current = first;
+
+        if (k < 0) {
+            System.out.println("Exception");
+        } else {
+            for (int i = 0; current != last; i++) {
+                current = current.next;
+                length++;
+            }
+            current = first;
+
+            int i = 1;
+            if (k < length) {
+                //-k+1 to start indexing bkwrd
+                while (i < length - k + 1) {
+                    current = current.next;
+                    i++;
+                }
+                System.out.println(current.value);
+            } else {
+                System.out.println("Exception");
+            }
+
+        }
+    }
 
     private Node first ;
     private Node last ;
