@@ -44,6 +44,7 @@ public class App {
         System.out.println(list.toString());
         System.out.println(list2.toString());
         System.out.println(list.zipLists(list2));
+        System.out.println(list2.toString());
 
     }
 

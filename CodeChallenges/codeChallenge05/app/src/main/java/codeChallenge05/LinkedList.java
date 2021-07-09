@@ -1,6 +1,8 @@
 package codeChallenge05;
 
 
+import java.util.ArrayList;
+
 public class LinkedList {
 
     private class Node {
