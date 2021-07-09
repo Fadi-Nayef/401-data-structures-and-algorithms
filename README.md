@@ -13,7 +13,7 @@
 |    Challenge 7        |[]()     |
 |    Challenge 8        |[]()     |
 |    Challenge 9        |[]()     |
-|    Challenge 10        |[]()     |
+|    Challenge 10        |[stack-and-queue](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/blob/main/stack-and-queue/README.md)     |
 |    Challenge 12        |[]()     |
 |    Challenge 13        |[]()     |
 |    Challenge 14        |[]()     |
