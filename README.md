@@ -1,20 +1,22 @@
+
 # 401-data-structures-and-algorithms
-# *Features*
- **Node**
-- Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.Features
-Node
-- Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.Features
-Node
-- Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.
-# *Tests*
+## Code Challenges
 
-*prove the following functionality:*
-
-- Can successfully instantiate an empty linked list
-- Can properly insert into the linked list
-- The head property will properly point to the first node in the linked list
-- Can properly insert multiple nodes into the linked list
-- Will return true when finding a value within the linked list that exists
-- Will return false when searching for a value in the linked list that does not exist
-- Can properly return a collection of all the values that exist in the linked list
-<br> **Took almost 4 hrs**
+|     *Challenges*      |                  *WhiteBoard Link*                                           |
+|-----------------------|--------------------------------------------------------------------------|
+|    Challenge 1        |[Reverse Array](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/tree/01codeChallenge/CodeChallenges/codechallenge01)                    |
+|    Challenge 2        |[challeng](c) |
+|    Challenge 3        |[](c) |
+|    Challenge 4        |[challenge04](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/blob/01codeChallenge/CodeChallenges/whiteBoards/codeChallenge04.png) |
+|    Challenge 5        |[Linked-List](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/tree/linkedlists)         |
+|    Challenge 6        |[Linked List Inheritance](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/tree/linked-list-insertions/CodeChallenges/codeChallenge05)     |
+|    Challenge 7        |[]()     |
+|    Challenge 8        |[]()     |
+|    Challenge 9        |[]()     |
+|    Challenge 10        |[]()     |
+|    Challenge 12        |[]()     |
+|    Challenge 13        |[]()     |
+|    Challenge 14        |[]()     |
+|    Challenge 15        |[]()     |
+|    Challenge 16        |[]()     |
+|    Challenge 17        |[]()     |
