@@ -1,22 +1,4 @@
 # array-binary-search 
 
-![image](https://user-images.githubusercontent.com/80682261/125021752-eeffa100-e083-11eb-9910-0ec12878977e.png)
+![image](https://user-images.githubusercontent.com/80682261/125119613-0b3e2500-e0fa-11eb-8c8f-0ef9c500b1bb.png)
 
-## CODE
-```
-public static int BinarySearch(int[] arr, int num) {
- int firstIdx = 0, midIdx, lastIdx = arr.length - 1;
-    while (firstIdx  <= lastIdx) {
-        midIdx = (lastIdx + firstIdx) / 2;
-        if (arr[midIdx] == num) {
-            return midIdx;
-        } else if (arr[midIdx] > num) {
-            firstIdx=midIdx-1;
-        }
-        else {
-           lastIdx=midIdx+1;
-        }
-    }
-    return -1;
-}
-```
