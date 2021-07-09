@@ -1,22 +1,12 @@
-# array-binary-search 
-## lab 03
-![image](https://user-images.githubusercontent.com/80682261/125021752-eeffa100-e083-11eb-9910-0ec12878977e.png)
 
-## CODE
-```
-public static int BinarySearch(int[] arr, int num) {
- int firstIdx = 0, midIdx, lastIdx = arr.length - 1;
-    while (firstIdx  <= lastIdx) {
-        midIdx = (lastIdx + firstIdx) / 2;
-        if (arr[midIdx] == num) {
-            return midIdx;
-        } else if (arr[midIdx] > num) {
-            firstIdx=midIdx-1;
-        }
-        else {
-           lastIdx=midIdx+1;
-        }
-    }
-    return -1;
-}
-```
+# 401-data-structures-and-algorithms
+## Code Challenges
+
+|     *Challenges*      |                  *WhiteBoard Link*                                           |
+|-----------------------|--------------------------------------------------------------------------|
+|    Challenge 1        |[Reverse Array](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/tree/01codeChallenge/CodeChallenges/codechallenge01)                    |
+|    Challenge 2        |[challeng](c) |
+|    Challenge 3        |[](c) |
+|    Challenge 4        |[challenge04](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/blob/01codeChallenge/CodeChallenges/whiteBoards/codeChallenge04.png) |
+|    Challenge 5        |[Linked-List](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/tree/linkedlists)         |
+|    Challenge 6        |[Linked List Inheritance](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/tree/linked-list-insertions/CodeChallenges/codeChallenge05)      
