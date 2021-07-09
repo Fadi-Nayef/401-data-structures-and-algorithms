@@ -8,9 +8,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
-    @Test void appHasAGreeting() {
 
-    }
     public void addLast(){
         var list= new LinkedList();
 
@@ -61,7 +59,14 @@ class AppTest {
 
      assertEquals("List: { 60 } -> { 50 } -> { 40 } -> { 10 } -> { 20 } -> { 30 } -> NULL",list.toString());
     }
+    @Test public void appendTest(){
+        var list= new LinkedList();
 
+        list.append(10);
+        list.append(20);
+        list.append(30);
+        assertEquals("List: { 10 } -> { 20 } -> { 30 } -> NULL",list.toString());
+    }
     @Test public void insertBeforeTest(){
         var list = new LinkedList();
         list.addToLast(10);

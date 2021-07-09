@@ -95,6 +95,17 @@ public class LinkedList {
             last = node;
         }
     }
+
+    public void append(int value) {
+        var node = new Node(value);
+
+        if(first==null)
+            first=last=node;
+        else{
+            last.next=node;
+            last = node;
+        }
+    }
     public void insertBefore(int value , int newValue ){
         var current = first;
         var node = new Node(newValue);
