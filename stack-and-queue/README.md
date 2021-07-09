@@ -2,6 +2,7 @@
 
 - This code challenge contains stack and queue classes, and tests for the stack and queue classes.
 # Challenge
+
 ### Challenge Type: New Implementation
 - Create a Node class that has properties for the value stored in the Node, and a pointer to the next node.
 - Create a Stack class that has a top property. It creates an empty Stack when instantiated.
@@ -32,3 +33,5 @@
 -1 Then I moved onto the Queue class, and wrote the methods out for that. 
 -1 Then I wrote out tests for the Stack and Queue classes to test my code. 
 >The Big O space/time for this challenge was O(1).<
+
+![img.png](img.png) 
