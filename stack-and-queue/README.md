@@ -45,6 +45,7 @@ Create a brand new PseudoQueue class. Do not use an existing Queue. Instead, thi
 ## Approach & Efficiency
 
 For this challenge I decided to create a help function ```reverse``` which takes the ``current`` Stack and pushes all of its contents into a ``temp`` stack. When executing the ``enqueue`` method the Node is simply added to the top of the stack. Executing the ``dequeue`` method while execute ``reverse`` then ``pop`` the ``top`` Node off of the stack then execute ``reverse`` once more .
-[code Link](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/tree/stack-queue-pseudo/stack-and-queue/app/src)
+
+# ***[code Link](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/tree/stack-queue-pseudo/stack-and-queue/app/src)***
 
 ![image](https://user-images.githubusercontent.com/80682261/125213220-29eb1a00-e2ba-11eb-997f-21ffc9b9fdbd.png)
