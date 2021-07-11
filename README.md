@@ -14,7 +14,7 @@
 |    Challenge 8        |[linked-list-zip](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/blob/main/CodeChallenges/codeChallenge05/LinkedLinst.md#linked-list-zip-05-04)|
 |    Challenge 9        |[Mock Interviews](https://miro.com/app/board/o9J_l74xo3Q=/)     |
 |    Challenge 10        |[stack-and-queue](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/blob/main/stack-and-queue/README.md)     |
-|    Challenge 12        |[]()     |
+|    Challenge 11        |[stack-queue-pseudo](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/blob/stack-queue-pseudo/stack-and-queue/README.md#code-challenge-class-11)     |
 |    Challenge 13        |[]()     |
 |    Challenge 14        |[]()     |
 |    Challenge 15        |[]()     |
