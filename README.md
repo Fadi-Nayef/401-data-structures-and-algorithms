@@ -15,7 +15,7 @@
 |    Challenge 9        |[Mock Interviews](https://miro.com/app/board/o9J_l74xo3Q=/)     |
 |    Challenge 10        |[stack-and-queue](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/blob/main/stack-and-queue/README.md)     |
 |    Challenge 11        |[stack-queue-pseudo](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/blob/stack-queue-pseudo/stack-and-queue/README.md#code-challenge-class-11)     |
-|    Challenge 13        |[]()     |
+|    Challenge 12        |[Animal Shelter](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/tree/main/CodeChallenges/Animal%20_Shelter#animal-shelter)     |
 |    Challenge 14        |[]()     |
 |    Challenge 15        |[]()     |
 |    Challenge 16        |[]()     |
