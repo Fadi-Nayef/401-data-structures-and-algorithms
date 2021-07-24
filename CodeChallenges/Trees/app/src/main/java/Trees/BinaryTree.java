@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class BinaryTree {
     Node root;
-    public ArrayList<Integer> preOrder= new ArrayList<>();
     public ArrayList<Integer> inOrder= new ArrayList<>();
     public ArrayList<Integer> postOrder= new ArrayList<>();
+    public ArrayList<Integer> preOrder= new ArrayList<>();
 
     public void inOrderTraverse(Node node){
         if (node != null){
@@ -16,6 +16,9 @@ public class BinaryTree {
             inOrderTraverse(node.getRight()); // traverse right sub tree
 
         }
+    }
+    public ArrayList<Integer> getInOrder() {
+        return inOrder;
     }
 
 
@@ -27,6 +30,10 @@ public class BinaryTree {
             postOrder.add(node.getKey());
         }
     }
+    public ArrayList<Integer> getPostOrder() {
+        return postOrder;
+    }
+
 
     public void preOrderTraverse(Node node){
         if (node != null){
@@ -41,22 +48,17 @@ public class BinaryTree {
     public ArrayList<Integer> getPreOrder() {
         return preOrder;
     }
-
-    public ArrayList<Integer> getInOrder() {
-        return inOrder;
+    public void setRoot(Node root) {
+        this.root = root;
     }
 
-    public ArrayList<Integer> getPostOrder() {
-        return postOrder;
-    }
+
 
     public Node getRoot() {
         return root;
     }
 
-    public void setRoot(Node root) {
-        this.root = root;
-    }
+
 
 
 }
