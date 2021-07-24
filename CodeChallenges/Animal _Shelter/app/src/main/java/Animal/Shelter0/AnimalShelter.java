@@ -1,14 +1,13 @@
 package Animal.Shelter0;
 
-import java.util.Locale;
 
 public class AnimalShelter {
     private final Queue <Animal> dog;
     private final Queue <Animal> cat;
 
     public AnimalShelter() {
-        dog= new Queue<>();
-        cat= new Queue<>();
+        this.dog= new Queue<>();
+        this.cat= new Queue<>();
     }
 
 

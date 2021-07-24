@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b42a924-a8f9-4b52-99f7-9225958283b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Animal/Shelter0/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Animal/Shelter0/AnimalShelter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Animal/Shelter0/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Animal/Shelter0/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Animal/Shelter0/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Animal/Shelter0/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/Animal/Shelter0/AnimalShelterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../stack-and-queue/app/src/main/java/stack/and/queue/MultiBracketValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../stack-and-queue/app/src/test/java/stack/and/queue/MultiBracketValidationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../stack-and-queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../stack-and-queue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../stack-and-queue/app/src/main/java/stack/and/queue/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../stack-and-queue/app/src/main/java/stack/and/queue/App.java" afterDir="false" />
+    <list default="true" id="2b42a924-a8f9-4b52-99f7-9225958283b5" name="Default Changelist" comment="AnimalShelter">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Animal/Shelter0/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/Animal/Shelter0/AnimalShelter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +38,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="stack-queue-brackets" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1vHVO6ulJwkUHsa98WR7hyLH0tw" />
@@ -65,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../songr" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -204,6 +194,14 @@
       <option name="presentableId" value="Default" />
       <updated>1626218965837</updated>
     </task>
+    <task id="LOCAL-00001" summary="AnimalShelter">
+      <created>1626311361693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626311361693</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,5 +215,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="AnimalShelter" />
+    <option name="LAST_COMMIT_MESSAGE" value="AnimalShelter" />
   </component>
 </project>
