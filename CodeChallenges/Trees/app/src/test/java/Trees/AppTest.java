@@ -7,6 +7,24 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
+
+    @Test
+    public void maxTest(){
+        BinaryTree binaryTree= new BinaryTree();
+
+        binaryTree.setRoot(new Node(20));
+
+        binaryTree.getRoot().setLeft(new Node(30));
+        binaryTree.getRoot().setLeft(new Node(90));
+        binaryTree.getRoot().setRight(new Node(40));
+        binaryTree.getRoot().setRight(new Node(50));
+        binaryTree.getRoot().setRight(new Node(70));
+
+        binaryTree.preOrderTraverse(binaryTree.getRoot());
+
+        assertEquals(90,binaryTree.maxNode(binaryTree.getRoot()));
+
+    }
     @Test
     public void emptyTree(){
         BinaryTree binaryTree= new BinaryTree();
