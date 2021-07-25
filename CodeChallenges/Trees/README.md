@@ -39,3 +39,17 @@ Binary Tree is a special datastructure used for data storage purposes. A binary 
 - postOrderTraverse
 - preOrderTraverse
 - ArrayLists to store the values 
+
+# Code Challenge 16
+
+## Tree-Max
+# challenge
+**Challenge Type: Extending an Implementation**
+
+# Feature Tasks
+
+- Find the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
+
+Code [Link](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/blob/tree-max/CodeChallenges/Trees/app/src/main/java/Trees/BinaryTree.java)
+![image](https://user-images.githubusercontent.com/80682261/126913934-16bdc651-3f2f-4485-836d-7c7b1bd8ceba.png)
+
