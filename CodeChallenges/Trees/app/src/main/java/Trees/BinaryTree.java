@@ -8,6 +8,24 @@ public class BinaryTree {
     public ArrayList<Integer> postOrder= new ArrayList<>();
     public ArrayList<Integer> preOrder= new ArrayList<>();
 
+    public int maxNode (Node node){
+        if(node != null) {
+        int nodeComp= node.getKey();
+        int maxLeft = maxNode(node.getLeft());
+        int maxRight= maxNode(node.getRight());
+        if (maxLeft > nodeComp){
+            nodeComp=maxLeft;
+        } if (nodeComp < maxRight){
+            nodeComp = maxRight;
+
+        }
+            return nodeComp;
+        }
+
+        return -1;
+    }
+
+
     public void inOrderTraverse(Node node){
         if (node != null){
             inOrderTraverse(node.getLeft()); // traverse left sub tree
