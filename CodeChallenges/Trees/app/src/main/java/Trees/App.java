@@ -12,8 +12,9 @@ public class App {
         //Adding nodes to the tree
         binaryTree.setRoot(new Node(30));
         binaryTree.getRoot().setLeft(new Node(40));
-        binaryTree.getRoot().setRight(new Node(50));
+        binaryTree.getRoot().setRight(new Node(150));
         binaryTree.getRoot().getLeft().setLeft(new Node(60));
+        binaryTree.getRoot().getRight().setRight(new Node(100));
 
         System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<inorder>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         binaryTree.inOrderTraverse(binaryTree.getRoot());
@@ -31,7 +32,10 @@ public class App {
         binarySearchTree.add(30);
         binarySearchTree.add(25);
 
-        System.out.println(" --------------------------- ");
+        System.out.println(" -----------Start Max ---------------- ");
+        binaryTree.inOrderTraverse(binaryTree.getRoot());
+        System.out.println(binaryTree.maxNode(binaryTree.getRoot()));
+        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<End Max>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         System.out.println(binarySearchTree.containsNode(20));
         System.out.println(binarySearchTree.containsNode(550));
         System.out.println(binarySearchTree.containsNode(60));
