@@ -39,6 +39,7 @@ public class App {
         System.out.println(binarySearchTree.containsNode(20));
         System.out.println(binarySearchTree.containsNode(550));
         System.out.println(binarySearchTree.containsNode(60));
+        binaryTree.breadthFirst();
     }
 }
 

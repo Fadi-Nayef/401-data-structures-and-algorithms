@@ -8,6 +8,22 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
 
+@Test
+public void breadthFirstTest(){
+    BinaryTree binaryTree= new BinaryTree();
+
+    //Adding nodes to the tree
+    binaryTree.setRoot(new Node(30));
+    binaryTree.getRoot().setLeft(new Node(40));
+    binaryTree.getRoot().setRight(new Node(150));
+    binaryTree.getRoot().getLeft().setLeft(new Node(60));
+    binaryTree.getRoot().getRight().setRight(new Node(100));
+
+
+    binaryTree.breadthFirst();
+    assertEquals("[30, 40, 150, 60, 100]",binaryTree.levelOrder+"");
+
+}
     @Test
     public void maxTest(){
         BinaryTree binaryTree= new BinaryTree();

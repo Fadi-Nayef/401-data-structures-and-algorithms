@@ -7,6 +7,36 @@ public class BinaryTree {
     public ArrayList<Integer> inOrder= new ArrayList<>();
     public ArrayList<Integer> postOrder= new ArrayList<>();
     public ArrayList<Integer> preOrder= new ArrayList<>();
+    public ArrayList<Integer> levelOrder = new ArrayList<>();
+
+    public void breadthFirst(){
+        int h = height(root);
+        int i;
+        for (i=1; i<=h; i++){printCurrentLevel(root, i);}
+    }
+
+    public int height(Node root){
+        if (root == null){ return 0;}
+        else{
+            int leftH = height(root.getLeft());
+            int rightH = height(root.getRight());
+
+            if (leftH > rightH){return(leftH+1);}
+            else return(rightH+1);
+        }
+    }
+
+    public void printCurrentLevel (Node root ,int level){
+        if (root == null){return;}
+        if (level == 1) {
+            levelOrder.add(root.getKey());
+            System.out.println(levelOrder);
+        }
+        else if (level > 1){
+            printCurrentLevel(root.getLeft(), level-1);
+            printCurrentLevel(root.getRight(), level-1);
+
+        }}
 
     public int maxNode (Node node){
         if(node != null) {
