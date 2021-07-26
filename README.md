@@ -19,4 +19,4 @@
 |    Challenge 14        |[]()     |
 |    Challenge 15        |[Binary Trees](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/tree/main/CodeChallenges/Trees#code-challenge-15)     |
 |    Challenge 16        |[Max-Tree](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/blob/main/CodeChallenges/Trees/README.md#code-challenge-16)     |
-|    Challenge 17        |[]()     |
+|    Challenge 17        |[Breadth-first Traversal](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/blob/main/CodeChallenges/Trees/README.md#code-challenge-17)     |
