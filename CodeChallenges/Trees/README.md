@@ -53,3 +53,11 @@ Binary Tree is a special datastructure used for data storage purposes. A binary 
 Code [Link](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/blob/tree-max/CodeChallenges/Trees/app/src/main/java/Trees/BinaryTree.java)
 ![image](https://user-images.githubusercontent.com/80682261/126913934-16bdc651-3f2f-4485-836d-7c7b1bd8ceba.png)
 
+# Code Challenge 17
+## Breadth-first Traversal.
+
+
+## Challenge Type: Code Challenge / Algorithm
+## challenge [CODE](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/blob/main/CodeChallenges/Trees/app/src/main/java/Trees/BinaryTree.java)
+
+![image](https://user-images.githubusercontent.com/80682261/127048149-8a820b6a-5cd4-4484-b592-b844a312e774.png)
