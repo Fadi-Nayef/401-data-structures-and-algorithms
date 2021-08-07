@@ -54,7 +54,26 @@ public class BinaryTree {
 
         return -1;
     }
+public int sumOdds(Node node){
+        if (node == null){
+            return  0;
+        }else{int current= node.getKey();
+        int leftCurrent  = sumOdds(node.getLeft());
+        int rightCurrent = sumOdds(node.getRight());
+        int leftSum=0;
+        int rightSum=0;
+        int sum = current;
+        if (leftCurrent%2 !=0 ){
+            leftSum += leftCurrent;
 
+        }
+        if (rightCurrent%2 !=0){
+            rightSum += rightCurrent;
+        }
+        sum += leftSum + rightSum;
+        return sum;
+        }
+}
 
     public void inOrderTraverse(Node node){
         if (node != null){
