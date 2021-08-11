@@ -21,4 +21,4 @@
 |    Challenge 16        |[Max-Tree](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/blob/main/CodeChallenges/Trees/README.md#code-challenge-16)     |
 |    Challenge 17        |[Breadth-first Traversal](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/blob/main/CodeChallenges/Trees/README.md#code-challenge-17)     |
 |    Challenge 26        |[Blog 26](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/tree/Blog/CodeChallenges/Trees/app/src/main/java/Blogs)|
-
+|   Challenge 27     | [Blog 2 - Merge Sort](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/tree/MergeSort-Blog/Blogs#blog-27---merge-sort) |
