@@ -24,6 +24,10 @@ public class App {
         System.out.println(studentAllowences.remove("A"));
         System.out.println(" the size is => "+ studentAllowences.getSize());
 
+
+
+        String input = "Once upon a time, there was a brave princess who...";
+        System.out.println(studentAllowences.firstRepeated(input));
     }
 //        BinaryTree binaryTree= new BinaryTree();
 //
