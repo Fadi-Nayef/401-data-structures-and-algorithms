@@ -3,43 +3,61 @@
  */
 package Trees;
 
+import hashTables.HashTable;
+
 public class App {
 
     public static void main(String[] args) {
+        HashTable<String, Integer> studentAllowences = new HashTable<>();
 
-        BinaryTree binaryTree= new BinaryTree();
+        studentAllowences.add("A", 300);
+        studentAllowences.add("B",505);
+        studentAllowences.add("Cbftggg", 6910);
+        studentAllowences.add("Dsss", 5604);
 
-        //Adding nodes to the tree
-        binaryTree.setRoot(new Node(30));
-        binaryTree.getRoot().setLeft(new Node(40));
-        binaryTree.getRoot().setRight(new Node(150));
-        binaryTree.getRoot().getLeft().setLeft(new Node(60));
-        binaryTree.getRoot().getRight().setRight(new Node(100));
+        System.out.println(" the size is => "+ studentAllowences.getSize());
+        System.out.println( studentAllowences.get("A"));
+        System.out.println( studentAllowences.get("B"));
+        System.out.println( studentAllowences.contain("ggg"));
+        System.out.println( studentAllowences.contain("sss"));
 
-        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<inorder>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
-        binaryTree.inOrderTraverse(binaryTree.getRoot());
-        System.out.println(" -------------------------------------");
-        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<postOrder>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
-        binaryTree.postOrderTraverse(binaryTree.getRoot());
+        System.out.println(studentAllowences.remove("A"));
+        System.out.println(" the size is => "+ studentAllowences.getSize());
 
-        System.out.println(" ");
-        System.out.println("<<<<<<<<<<<<<<<<<<<<preOrder>>>>>>>>>>>>>>>>>>>>>>>");
-        binaryTree.preOrderTraverse(binaryTree.getRoot());
-//        System.out.println(binaryTree.preOrderTraverse());
-        BinarySearchTree binarySearchTree= new BinarySearchTree();
-        binarySearchTree.add(20);
-        binarySearchTree.add(50);
-        binarySearchTree.add(30);
-        binarySearchTree.add(25);
-
-        System.out.println(" -----------Start Max ---------------- ");
-        binaryTree.inOrderTraverse(binaryTree.getRoot());
-        System.out.println(binaryTree.maxNode(binaryTree.getRoot()));
-        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<End Max>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
-        System.out.println(binarySearchTree.containsNode(20));
-        System.out.println(binarySearchTree.containsNode(550));
-        System.out.println(binarySearchTree.containsNode(60));
-        binaryTree.breadthFirst();
     }
+//        BinaryTree binaryTree= new BinaryTree();
+//
+//        //Adding nodes to the tree
+//        binaryTree.setRoot(new Node(30));
+//        binaryTree.getRoot().setLeft(new Node(40));
+//        binaryTree.getRoot().setRight(new Node(150));
+//        binaryTree.getRoot().getLeft().setLeft(new Node(60));
+//        binaryTree.getRoot().getRight().setRight(new Node(100));
+//
+//        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<inorder>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+//        binaryTree.inOrderTraverse(binaryTree.getRoot());
+//        System.out.println(" -------------------------------------");
+//        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<postOrder>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+//        binaryTree.postOrderTraverse(binaryTree.getRoot());
+//
+//        System.out.println(" ");
+//        System.out.println("<<<<<<<<<<<<<<<<<<<<preOrder>>>>>>>>>>>>>>>>>>>>>>>");
+//        binaryTree.preOrderTraverse(binaryTree.getRoot());
+////        System.out.println(binaryTree.preOrderTraverse());
+//        BinarySearchTree binarySearchTree= new BinarySearchTree();
+//        binarySearchTree.add(20);
+//        binarySearchTree.add(50);
+//        binarySearchTree.add(30);
+//        binarySearchTree.add(25);
+//
+//        System.out.println(" -----------Start Max ---------------- ");
+//        binaryTree.inOrderTraverse(binaryTree.getRoot());
+//        System.out.println(binaryTree.maxNode(binaryTree.getRoot()));
+//        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<End Max>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+//        System.out.println(binarySearchTree.containsNode(20));
+//        System.out.println(binarySearchTree.containsNode(550));
+//        System.out.println(binarySearchTree.containsNode(60));
+//        binaryTree.breadthFirst();
+//    }
 }
 
