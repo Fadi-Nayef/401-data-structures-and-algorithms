@@ -144,7 +144,7 @@ public class HashTable<k,v> {
     }
     
 
-    public String firstRepeated(String input){
+    public String firstRepeatedWord(String input){
         String[] string = input.split(" ");
         HashTable<String, Integer> setOfWord = new HashTable<>();
 
