@@ -22,3 +22,15 @@
 |    Challenge 17        |[Breadth-first Traversal](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/blob/main/CodeChallenges/Trees/README.md#code-challenge-17)     |
 |    Challenge 26        |[Blog 26](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/tree/Blog/CodeChallenges/Trees/app/src/main/java/Blogs)|
 |   Challenge 27     | [Blog 2 - Merge Sort](https://github.com/Fadi-Nayef/401-data-structures-and-algorithms/tree/MergeSort-Blog/Blogs#blog-27---merge-sort) |
+|   Challenge 28     | []()|
+|   Challenge 29     | []()|
+|   Challenge 30     | []()|
+|   Challenge 31     | []()|
+|   Challenge 32     | []()|
+|   Challenge 33     | []()|
+|   Challenge 34     | []()|
+|   Challenge 35     | [35-38](https://1drv.ms/u/s!Arc6VZhI-LNTompHYDeJ-y8ue4C1?e=eCESJe)|
+|   Challenge 36     | [35-38](https://1drv.ms/u/s!Arc6VZhI-LNTompHYDeJ-y8ue4C1?e=eCESJe)|
+|   Challenge 37     | [35-38](https://1drv.ms/u/s!Arc6VZhI-LNTompHYDeJ-y8ue4C1?e=eCESJe)|
+|   Challenge 38     | [35-38](https://1drv.ms/u/s!Arc6VZhI-LNTompHYDeJ-y8ue4C1?e=eCESJe)|
+|   Challenge 40     | []()|
