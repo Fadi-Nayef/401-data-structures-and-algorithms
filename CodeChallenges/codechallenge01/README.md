@@ -30,5 +30,4 @@ System.out.println("Original Array printed in reverse order:");
 # Code Challenge 02
 
 **Array-insert-shift**
-
-![image](https://user-images.githubusercontent.com/80682261/125107817-eb9f0080-e0e9-11eb-9671-11475fefcd60.png)
+![codeChallenge02](https://user-images.githubusercontent.com/80682261/132098456-f1af521d-3bb3-4387-8ad4-693c34243bb3.jpg)
