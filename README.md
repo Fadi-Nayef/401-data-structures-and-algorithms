@@ -26,7 +26,7 @@
 |   Challenge 29     | []()|
 |   Challenge 30     | []()|
 |   Challenge 31     | []()|
-|   Challenge 32     | []()|
+|   Challenge 32     | [Code Challenge: Class 32](https://canvas.instructure.com/users/29638496/files/149206079/preview?verifier=R4hy90SA9sr3ym0pZuRhiVIVyL9al9Zd9j5nETAk)|
 |   Challenge 33     | []()|
 |   Challenge 34     | []()|
 |   Challenge 35     | [35-38](https://1drv.ms/u/s!Arc6VZhI-LNTompHYDeJ-y8ue4C1?e=eCESJe)|
